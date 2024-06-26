@@ -1,21 +1,27 @@
 {
   "name": "todo-list",
+  "homepage": "https://hariharan-002.github.io/todo-list/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.3",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.3",
+    "react-bootstrap-icons": "^1.11.4",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "reactjs-popup": "^2.0.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh": "^2.8.9",
+    "gh-pages": "^6.1.1",
+    "pages": "^0.0.16"
   }
 }
